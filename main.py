@@ -68,7 +68,7 @@ def get_portfolio_data(client, account_id):
     })
 
 
-def get_operations_history(client, account_id, days=365):
+def get_operations_history(client, account_id, days=3650):
     """Получает историю операций за указанный период с детализацией"""
     from tinkoff.invest import OperationState, OperationType
 
